@@ -8,12 +8,15 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 requirements = [
+    "beautifulsoup4>=4.6.3",
     "ffmpy>=0.2.2",
-    "le-utils>=0.1.9",
+    "le-utils>=0.1.14",
     "matplotlib==2.0.0",
     "numpy==1.12.1",
     "Pillow>=3.3.1",
+    "youtube-dl>=2018.11.7",
     "Wand==0.4.4",
+    "webvtt-py>=0.4.2",
 ]
 
 test_requirements = [
